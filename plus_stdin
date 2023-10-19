@@ -1,5 +1,5 @@
 #!/use/bin/python3
-
+# SPDX-FileCopyrightText: 2023 Kaito Sumi s22C1074BP@s.chibakoudai.jp
 import sys
 
 ans = 0.0

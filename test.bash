@@ -7,14 +7,6 @@ $ ./test.bash
 res=0
 + res=0
 
-ng (){
-	echo NG at Line $1
-	res=1
-}
-
-res=0
-+ res=0
-
 
 out=$(seq 5 | ./plus)
 ++ seq 5

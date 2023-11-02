@@ -24,7 +24,7 @@ out=$(seq 5 | ./plus)
 + '[' 15 = 15 ']'
 
 [ "$res" = 0 ] && echo OK
-+ '[' 0 - 0 ']'
++ '[' 0 = 0 ']'
 + echo OK
 OK
 exit $res

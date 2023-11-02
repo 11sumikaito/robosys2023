@@ -1,6 +1,12 @@
 #!/bin/bash
 # SPDX-FileCopyrightText: 2023 Kaito Sumi s22C1074BP@s.chibakoudai.jp
 # SPDX-License-Identifier: BSD-3-Clause
+
+$ ./test.bash
+
+res=0
++ res=0
+
 ng (){
 	echo NG at Line $1
 	res=1

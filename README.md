@@ -1,8 +1,14 @@
-## plusコマンド
+## robosys2023
 ![test](https://github.com/11sumikaito/sumikaito/actions/workflows/test.yml/badge.svg)
 
-## 何をするためのソフトか
+## plusコマンドの説明
 plusのプログラムは標準入力から受け取った数値（整数または浮動小数点数）を合計して出力するものです。
+
+
+
+
+
+
 
 ## 必要なソフトウェア
  * Python

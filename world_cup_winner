@@ -1,0 +1,27 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 11sumikaito
+# SPDX-License-Identifier: BSD-3-Clause
+
+def print_world_cup_winner():
+    try:
+        with open('world_cup_winners_by_year.txt', 'r') as file:
+            data = {}
+            for line in file:
+                year, winner = line.strip().split(',')
+                data[year] = winner
+
+            while True:
+                user_input = input("") #年数を入力
+
+                if user_input in data:
+                  print(f"{data[user_input]}")
+                   break
+                else:
+                    print("該当する年代のデータが見つかりませんでした")
+                     break
+
+    except FileNotFoundError:
+        print("指定されたファイルが見つかりませんでした")
+
+if __name__ == "__main__":
+    print_world_cup_winner()

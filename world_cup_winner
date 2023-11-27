@@ -2,26 +2,30 @@
 # SPDX-FileCopyrightText: 2023 11sumikaito
 # SPDX-License-Identifier: BSD-3-Clause
 
-def print_world_cup_winner():
+import sys
+
+def print_world_cup_winner(year):
     try:
-        with open('world_cup_winners_by_year.txt', 'r') as file:
+        with open('world_cup_winner.txt', 'r', encoding='utf-8') as file:
             data = {}
             for line in file:
-                year, winner = line.strip().split(',')
-                data[year] = winner
+                parts = line.strip().split(',')
+                if len(parts) == 2:
+                    current_year, winner = parts
+                    data[current_year] = winner
 
-            while True:
-                user_input = input("") #年数を入力
-
-                if user_input in data:
-                  print(f"{data[user_input]}")
-                   break
-                else:
-                    print("該当する年代のデータが見つかりませんでした")
-                     break
+            if year in data:
+                print(f"{year}年のワールドカップ優勝国は {data[year]} です。")
+            else:
+                print(f"{year}年の該当する年代のデータが見つかりませんでした。")
 
     except FileNotFoundError:
         print("指定されたファイルが見つかりませんでした")
 
 if __name__ == "__main__":
-    print_world_cup_winner()
+    if len(sys.argv) != 2:
+        print("正しい引数がありません。使用法: python3 world_cup_winner.py <年数>")
+        sys.exit(1)
+
+    user_input = sys.argv[1]
+    print_world_cup_winner(user_input)

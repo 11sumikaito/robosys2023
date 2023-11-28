@@ -8,4 +8,4 @@ jobs:
     - name: All test
       run: bash ./test.bash
     - name: All test
-      run: bash ./test.bash
+      run: bash ./test.22bash

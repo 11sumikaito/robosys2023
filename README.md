@@ -24,11 +24,11 @@ plusのプログラムは標準入力から受け取った数値（整数また�
 
 ## (例１):
  	   $ seq 20 | ./plus
- 実行結果→   210
+   	     210
 
 ## (例２)：
 	　 $ seq 5 | ./plus
- 実行結果→   15
+	     15
 
 # plusテスト結果
 ![test](https://github.com/11sumikaito/robosys2023/actions/workflows/test.yml/badge.svg)

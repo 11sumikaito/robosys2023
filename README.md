@@ -5,8 +5,16 @@
  * テスト済み: 3.7～3.10
 
 # インストール方法
+1:ターミナルを開き以下のコードを実行してください。
 ```
 $ git clone git@github.com:11sumikaito/robosys2023.git
+```
+2:以下のコードを入力しrobosys2023のディレクトリに移動してください。
+```
+$ cd robosys2023
+```
+3:以下のコードを入力して実行権限を与えてください。
+```
 $ chmod +x world_cup_winner
 ```
 # plusコマンドの説明

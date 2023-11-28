@@ -7,5 +7,4 @@ jobs:
     - uses: actions/checkout@v3
     - name: All test
       run: bash ./test.bash
-    - name: All test
-      run: bash ./test.22bash
+           bash ./test.2bash

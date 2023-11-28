@@ -1,6 +1,4 @@
 # robosys2023
-## テスト環境
-Ubuntu 20.04 on Windows
 
 ## 必要なソフトウェア
  * Python
@@ -39,6 +37,7 @@ plusのプログラムは標準入力から受け取った数値（整数また�
 ## plusテスト結果
 ![test](https://github.com/11sumikaito/robosys2023/actions/workflows/test.yml/badge.svg)
 
+
 ## world_cup_winnerコマンドの説明
 テキストファイルworld_cup_winner.txtを使用しワールドカップで優勝した国名を表示するものです。
 
@@ -62,11 +61,15 @@ plusのプログラムは標準入力から受け取った数値（整数また�
 ## world_cup_winnerテスト結果
 ![test](https://github.com/11sumikaito/robosys2023/actions/workflows/test2.yml/badge.svg)
 
+## テスト環境
+ * Ubuntu 20.04 on Windows
+ * Ⓒ11sumikaito
+
 ## ライセンス
  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
  * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
        * [ryuichiueda/my_slides robosys_2022/lesson4.md](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022/lesson4.md)
- * © 2023 Kaito Sumi
+ * ©11sumikaito
 
 ## Author
  * 作成者：鷲見魁土

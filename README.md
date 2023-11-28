@@ -39,6 +39,8 @@ plusのプログラムは標準入力から受け取った数値（整数また�
  * Python
   * テスト済み: 3.7～3.10
 
+git clone https://github.com/11sumikaito/sumikaito
+
 ## Author
  * 作成者：鷲見魁土
  * E-mail：s22C1074BP@s.chibakoubai.jp

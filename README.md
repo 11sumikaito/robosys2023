@@ -4,10 +4,10 @@
  * Python
  * テスト済み: 3.7～3.10
 
-# plusのインストール方法
+# インストール方法
 ```
 $ git clone git@github.com:11sumikaito/robosys2023.git
-$ chmod +x plus
+$ chmod +x world_cup_winner
 ```
 # plusコマンドの説明
 plusのプログラムは標準入力から受け取った数値（整数または浮動小数点数）を合計して出力するものです。
@@ -25,11 +25,6 @@ plusのプログラムは標準入力から受け取った数値（整数また�
 # plusテスト結果
 ![test](https://github.com/11sumikaito/robosys2023/actions/workflows/test.yml/badge.svg)
 
-# world_cup_winnerのインストール方法
-```
-$ git clone git@github.com:11sumikaito/robosys2023.git
-$ chmod +x world_cup_winner
-```
 # world_cup_winnerコマンドの説明
 テキストファイルworld_cup_winner.txtを使用しワールドカップで優勝した国名を表示するものです。
 

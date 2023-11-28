@@ -10,11 +10,17 @@ Ubuntu 20.04 on Windows
 $ git clone git@github.com:11sumikaito/robosys2023.git
 
 ```
+```
 
 $ chmod +x plus
+
+```
 または
+```
+
 $ chmod +x world_cup_winner
 
+```
 ## plusコマンドの説明
 plusのプログラムは標準入力から受け取った数値（整数または浮動小数点数）を合計して出力するものです。
 

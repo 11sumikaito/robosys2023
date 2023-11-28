@@ -4,7 +4,7 @@
  * Python
  * テスト済み: 3.7～3.10
 
-# インストール方法
+# plusのインストール方法
 ```
 $ git clone git@github.com:11sumikaito/robosys2023.git
 $ chmod +x plus
@@ -25,7 +25,7 @@ plusのプログラムは標準入力から受け取った数値（整数また�
 # plusテスト結果
 ![test](https://github.com/11sumikaito/robosys2023/actions/workflows/test.yml/badge.svg)
 
-# インストール方法
+# world_cup_winnerのインストール方法
 ```
 $ git clone git@github.com:11sumikaito/robosys2023.git
 $ chmod +x world_cup_winner
@@ -62,7 +62,3 @@ $ chmod +x world_cup_winner
  * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
        * [ryuichiueda/my_slides robosys_2022/lesson4.md](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022/lesson4.md)
  * ©11sumikaito
-
-# Author
- * 作成者：鷲見魁土
- * E-mail：s22C1074BP@s.chibakoubai.jp

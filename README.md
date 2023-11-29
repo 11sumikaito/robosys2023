@@ -7,15 +7,15 @@
 # インストール方法
 ターミナルを開き以下のリポジトリをクローンします。
 ```
-$ git clone git@github.com:11sumikaito/robosys2023.git
+	$ git clone git@github.com:11sumikaito/robosys2023.git
 ```
 以下のコードを入力しrobosys2023のディレクトリに移動してください。
 ```
-$ cd robosys2023
+	$ cd robosys2023
 ```
 以下のコードを入力して実行権限を与えてください。
 ```
-$ chmod +x world_cup_winner
+	$ chmod +x world_cup_winner
 ```
 # plusコマンドの説明
 plusのプログラムは標準入力から受け取った数値（整数または浮動小数点数）を合計して出力するものです。
@@ -23,12 +23,12 @@ plusのプログラムは標準入力から受け取った数値（整数また�
 # 使用方法
 
 ## (例１):
- 	   $ seq 20 | ./plus
-   	     210
+ 	$ seq 20 | ./plus
+   	  210
 
 ## (例２)：
-	　 $ seq 5 | ./plus
-	     15
+	$ seq 5 | ./plus
+	  15
 
 # plusテスト結果
 ![test](https://github.com/11sumikaito/robosys2023/actions/workflows/test.yml/badge.svg)
@@ -42,16 +42,16 @@ plusのプログラムは標準入力から受け取った数値（整数また�
 # 使用方法
 
 ## (例１):
-	   $ ./world_cup_winner 1990
-  	     1990年のワールドカップ優勝国は西ドイツ（現在のドイツ）です。
+	$ ./world_cup_winner 1990
+  	  1990年のワールドカップ優勝国は西ドイツ（現在のドイツ）です。
 
 ## (例２)：
-	   $ ./world_cup_winner 1950
-	     1950年のワールドカップ優勝国はウルグアイです。
+	$ ./world_cup_winner 1950
+	  1950年のワールドカップ優勝国はウルグアイです。
 
 ## (例３)：
-           $ ./world_cup_winner 1984
-             1984年の該当する年代のデータが見つかりませんでした。
+        $ ./world_cup_winner 1984
+          1984年の該当する年代のデータが見つかりませんでした。
 
 # world_cup_winnerテスト結果
 ![test](https://github.com/11sumikaito/robosys2023/actions/workflows/test2.yml/badge.svg)

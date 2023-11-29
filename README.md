@@ -1,6 +1,6 @@
 # robosys2023
 
-# 必要なソフトウェア
+# 必要なソフトウaェア
  * Python
  * テスト済み: 3.7～3.10
 
@@ -63,5 +63,5 @@ plusのプログラムは標準入力から受け取った数値（整数また�
 # ライセンス
  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
  * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
- * [ryuichiueda/my_slides robosys_2022/lesson4.md](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022/lesson4.md)
+ * [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
  * ©11sumikaito
